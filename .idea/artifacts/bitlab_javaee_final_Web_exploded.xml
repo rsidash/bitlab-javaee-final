@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bitlab-javaee-final:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bitlab_javaee_final_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bitlab-javaee-final/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bitlab-javaee-final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
