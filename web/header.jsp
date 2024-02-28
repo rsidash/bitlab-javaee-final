@@ -22,7 +22,7 @@
               <a href="${pageContext.request.contextPath}/" class="nav-link link-body-emphasis">News</a>
           </li>
           <li class="nav-item">
-              <a href="${pageContext.request.contextPath}/profile" class="nav-link link-body-emphasis"><%=currentUser.getFullName()%>></a>
+              <a href="${pageContext.request.contextPath}/profile" class="nav-link link-body-emphasis"><%=currentUser.getFullName()%></a>
           </li>
           <li class="nav-item">
               <form class="mb-0" action="${pageContext.request.contextPath}/logout" method="post">
